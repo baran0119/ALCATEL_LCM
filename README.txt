@@ -2,5 +2,5 @@
 
 Generated with bash for-loop:
 for SOURCE in `ls *tar.xz` ; do
-tar --wildcards -xf $SOURCE "*/mediatek/custom/common/kernel/lcm/"
+	tar --wildcards -xf $SOURCE "*/mediatek/custom/common/kernel/lcm/"
 done
